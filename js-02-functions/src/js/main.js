@@ -170,8 +170,12 @@ console.log(`Realizando una división: ${calculate(6, 3, divide )}`); // 2
 // Aplicar una función que calcule la potencia de un número
 console.log(`Realizando una división: ${calculate(6, 3, (a, b) => a ** b ) }`); // Math.pow(a,b) 
 // Aplicar una función que calcule el residuo de una devisión, para saber si 6 es divisible entre 3
+<<<<<<< HEAD
 
 console.log(`Realizando una división con residuo: ${calculate(6, 3, residue )}`);
+=======
+console.log(`residuo de 7 entre 3 ${calculate(7, 3, (a,b)=> a%b )}`); // 1
+>>>>>>> upstream/serch
 
 var a = 10;
 let b = 20;
@@ -181,13 +185,28 @@ const e = 50;
 const f = 60;
 const g = 70;
 
+<<<<<<< HEAD
 const cambiarValores = (a, b, c) => {
+=======
+
+const cambiarValores = (a, b, c) => {
+  /*
+
+   Muchas instrucciones
+
+  */ 
+>>>>>>> upstream/serch
   a = 100;
   b = 200;
   c = 300;
   var d = 400;
   let e = 500;
   const f = 600;
+<<<<<<< HEAD
   console.log(a, b, c, g);
 }
 console.log(cambiarValores());
+=======
+  console.log(a, b, c);
+}
+>>>>>>> upstream/serch
