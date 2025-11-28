@@ -41,3 +41,48 @@
     else condición;   
 
 */
+
+let isActive = true;
+
+if (isActive === true) console.log("El usuario está activo");
+if (isActive == true) console.log("El usuario está activo");
+
+if (isActive === true) {
+    console.log("El usuario está activo");
+} else {
+    console.log("El usuario no está activo");
+}
+
+if (isActive) {
+    console.log("El usuario está activo"); 
+}
+
+// Bloque de código: 
+// Conjunto de sentencias agrupadas entre llaves { ... }
+{
+    let firtsName = "Juan";
+    let lastName = "Pérez";
+    var alias = "Juampi";
+    let age = 28;
+
+    console.log(firtsName,lastName,alias); //Juan Pérez Juampi
+    { // Bloque anidado
+        let firtsName = "Sergio";
+        let lastName = "Torres";
+        var alias = "Serch";
+        var alias = "Serchmo";
+        console.log(firtsName,lastName,alias, age); //Sergio Torres Serch 28 
+    }
+
+    console.log(firtsName,lastName,alias, age); // Juan Pérez Serchmo 28
+}
+// console.log(firtsName,lastName,alias, age); firtsName is not defined
+console.log(alias); // Serchmo
+
+/*
+ Realizar una función (Arrow function) que reciba un número como valor de temperatura.
+ Si la temperatura es mayor a 25 grados, retornar "Hace calor".
+ En caso contrario, retornar "Hace frío".
+
+ Imprimir el valor del retorno por consola.
+*/
